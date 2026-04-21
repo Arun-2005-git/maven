@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch:'main',
-                    url:'https://github.com/gsdesai007/mvn-project.git'
+                    url:'https://github.com/Arun-2005-git/maven.git'
             }
         }
         stage('Build') {
