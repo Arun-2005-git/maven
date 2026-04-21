@@ -4,11 +4,10 @@ tools {
 maven 'Maven3'
 jdk 'JDK17'
 }
-stages {
-stage('Checkout') {
-steps {
-git 'https://github.com/Naveen04jan/demo-app.git'
-}
+ stage('Checkout') {
+            steps {
+                git branch:'main',
+                    url:'https://github.com/gsdesai007/mvn-project.git'
 }
 stage('Build') {
 steps {
