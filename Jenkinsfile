@@ -7,7 +7,7 @@ jdk 'JDK17'
  stage('Checkout') {
             steps {
                 git branch:'main',
-                    url:'https://github.com/gsdesai007/mvn-project.git'
+                    url:'https://github.com/Arun-2005/mvn-project.git'
 }
 stage('Build') {
 steps {
